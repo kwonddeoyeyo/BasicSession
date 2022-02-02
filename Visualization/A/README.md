@@ -14,7 +14,7 @@ plt.show()
 
 ### 김채은
 1.	한글폰트 다운로드
-Local에서 가져올 때 file directory에 오류가 있는 것 같습니다. 특히 family=font_name이 프린트가 안되서 모르겠지만, sksna 폰트는 “NanumBarunGothic”입니다.
+Local에서 가져올 때 file directory에 오류가 있는 것 같습니다. 채은님 코드에서 font_name이 프린트가 안되서 모르겠지만, 나눔 폰트는 스트링으로 “NanumBarunGothic”입니다.
 ``` Python
 FONT_PATH = '/usr/share/fonts/truetype/nanum/NanumGothicEco.ttf'
 plt.rc('font', family='NanumBarunGothic') 
