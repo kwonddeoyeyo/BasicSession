@@ -29,7 +29,7 @@ sns.barplot(data=train, x="month", y="count")
 ``` Python
 train["year_month"] = train["year"] + "-" + train["month"]
 ```
-	그리고 시각화는 countplot이 아닌 barplot을 사용해주세요. (이게 더 잘 보입니다.)
+그리고 시각화는 countplot이 아닌 barplot을 사용해주세요. (이게 더 잘 보입니다.)
 ``` Python
 sns.barplot(data=train, x="year_month", y="count")
 ```
