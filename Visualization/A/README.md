@@ -1,5 +1,6 @@
 # Visualization Feedback
-###공통
+
+### 공통
 1.	한 번에 여러 plotting을 할 때 아래 코드를 참고해주세요! Ex) 2개 위아래로
 ``` Python
 fig,ax = plt.subplots(2,1, figsize = (15,10))
@@ -10,7 +11,8 @@ sns.barplot(data=, x=, y=)
 plt.show()
 ```
 
-###김채은
+
+### 김채은
 1.	한글폰트 다운로드
 Local에서 가져올 때 file directory에 오류가 있는 것 같습니다. 특히 family=font_name이 프린트가 안되서 모르겠지만, sksna 폰트는 “NanumBarunGothic”입니다.
 ``` Python
@@ -39,7 +41,8 @@ sns.pointplot(data=train, x="hour", y="count", hue="weekday")
 ```
 5.  고생하셨습니다!
 
-###전혜령
+
+### 전혜령
 1.	시각화 부분 인사이트를 도출하지 않으셨습니다.
 2.	3번은 전부 count column을 활용하시면 쉽게 시각화 가능하십니다.
 3번 1) – 시간별 자전거 대여량은 총 시간이 아닌 각 시간 별로 발생한 횟수에 대한 차트를 그리시면 됩니다. bar보다는 pointplot를 추천합니다. 아래 코드는 혜령님이 쓰신 변수를 적용한 코드입니다.
@@ -53,6 +56,7 @@ sns.pointplot(data= df, x="hour", y="count", hue="workingday")
 3번 3) – 관련 시각화 자료가 안 보입니다. Hue를 혜령님 변수로 dayofweek로 하시면 됩니다.
 3.	고생하셨습니다!
 
-###김형민
+
+### 김형민
 1.	완벽하게 해내셔서 따로 수정 관련 피드백은 없습니다. 고생하셨습니다!
 
